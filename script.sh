@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo apt-get update 
+sudo yum update 
 
-sudo apt-get install httpd
+sudo yum install httpd
 
 sudo systemctl start httpd
 
 sudo systemctl status httpd
 
-sudo sytemctl enable httpd
+sudo systemctl enable httpd
